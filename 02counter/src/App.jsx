@@ -25,7 +25,7 @@ console.log(`Counter Value : ${counter}`);
 <h2>Counter Value : {counter}</h2>
 <button onClick={addValue}>Add Value {counter}</button>
 <br></br>
-<button onClick={decreaseValue}>Remove Value {counter}</button>
+<button onClick={decreaseValue}>Decrease Value {counter}</button>
 
     </>
   )
