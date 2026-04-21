@@ -21,7 +21,7 @@ function MoonIcon() {
 }
 
 function ToggleButton() {
-  // Context se seedha isDark aur toggleTheme lo - no props needed!
+// Directly get isDark and toggleTheme from Context - no props needed!
   const { isDark, toggleTheme } = useTheme();
 
   return (

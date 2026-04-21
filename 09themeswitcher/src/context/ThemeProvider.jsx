@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ThemeContext } from "./ThemeContext";
 
-// 3. Provider - state yahan rahegi, poori app ko dega
+// 3. Provider - state will live here and be shared with the entire app
 function ThemeProvider({ children }) {
   const [isDark, setIsDark] = useState(false);
 

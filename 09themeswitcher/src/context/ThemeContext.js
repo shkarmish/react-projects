@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
 
-// 1. Context banao
+// Create context
 export const ThemeContext = createContext();
 
-// 2. Custom hook - har jagah useContext(ThemeContext) likhne ki zaroorat nahi
+// 2. Custom hook - usetheme() easily access
 export const useTheme = () => useContext(ThemeContext);

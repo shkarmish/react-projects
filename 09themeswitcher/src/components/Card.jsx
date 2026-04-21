@@ -1,7 +1,7 @@
 import { useTheme } from "../context/ThemeContext";
 
 function Card() {
-  // Context se isDark lo directly
+ // Get isDark directly from Context
   const { isDark } = useTheme();
 
   return (
@@ -11,7 +11,7 @@ function Card() {
       ${isDark ? "bg-slate-800 text-white" : "bg-white text-slate-800"}
     `}>
 
-      {/* Card Image Placeholder */}
+      {/* Placeholder for Card Image */}
       <div className={`
         w-full h-44 flex items-center justify-center text-5xl
         transition-colors duration-500
